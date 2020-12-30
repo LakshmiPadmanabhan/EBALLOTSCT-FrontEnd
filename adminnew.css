@@ -1,0 +1,182 @@
+body{
+	overflow-x: hidden;
+	background: url("imageskac/sctce.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.logo{
+	height:60px;
+	width:50px;
+}
+.navbar{
+	margin: 0px;
+	width: 100%;
+	padding: 5px;
+}
+.moveright{
+	font-family: Palatino Linotype;
+}
+.result{
+    color: white;
+    margin: 10px;
+    margin-left:100px;
+    padding: 10px;
+    font-family: Platino Linotype;
+    font-size: 25px;
+}
+.name{
+	display: flex;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:Palatino Linotype;
+	color: white;
+}
+.name i{
+	margin:10px;
+}
+.navbar i{
+	width: 300px;
+}
+.nav-item{
+	padding:8px;
+	font-size: 18.7px;
+}
+.nav-link:hover{
+	font-size: 19.8px;
+	color: white;
+	background-color: grey;
+}
+.container{ 
+    margin-top:0px;
+    position: relative;
+    width:70%;
+    padding: 5rem;
+}
+.setupresult{
+	color: black;
+	margin-top: 50px;
+	font-size: 1.5rem;
+	font-family: 'Times';
+}
+.button button{
+	height: 100%;
+	width: 750px;
+	margin:20px;
+    padding:15px;
+	border: none;
+	cursor: pointer;
+    font-size: 20px;
+    border-radius: 100px;
+	text-transform: uppercase;
+	display: block;
+	margin:auto;
+	color:white;
+    background-color: blue;
+    font-size: 2em;
+	font-family: Georgia,'Times New Roman',serif;
+}
+.button1 button{
+	height: 100%;
+    width: 750px;
+    padding: 15px;
+	border: none;
+	cursor: pointer;
+    font-size: 20px;
+    border-radius: 100px;
+	text-transform: uppercase;
+	display: block;
+	margin:auto;
+	color:white;
+    background-color: blue;
+    margin-top: 5%;
+    font-size: 2em;
+    font-family: Georgia,'Times New Roman',serif;
+}
+.result{
+    color: white;
+    margin: 10px;
+    margin-left:100px;
+    padding: 10px;
+    font-family: Platino Linotype;
+    font-size: 25px;
+}
+.sec{
+	background-color: rgba(63, 61, 61, 0.5);
+	margin-top: 1rem;
+	height: 100%;
+}
+.button button:hover{
+    background: green;
+}
+
+.button1 button:hover{
+	background: green;
+}
+#date{
+	color: white;
+	font-family: "Book Antiqua";
+	text-align: right;
+	margin-right: 30px;
+}
+marquee{
+	font-size: 25px;
+	color: red;
+	font-weight: 700;
+	margin-top:25px;
+}
+@media(max-width:980px){
+	html,body{
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	.moveright{
+		margin-left: 30px;
+	}
+	.section-1 button{
+		
+		margin-top: 10px;
+	}
+	
+	.logo{
+		height: 50px;
+		width:40px;
+	}
+	.name{
+		font-size: 22px;
+	}
+	.container{
+		max-width:100%;
+		margin:auto;
+		margin-top:25px ;
+		padding: 10px;
+	}
+	.button button{
+		max-width: 100%; 
+		padding:20px;
+		border: none;
+		cursor: pointer;
+		font-size: 20px;
+		border-radius: 10px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+	.button1 button{
+		max-width: 100%; 
+		padding:20px;
+		border: none;
+		cursor: pointer;
+		font-size: 20px;
+		border-radius: 10px;
+		margin-top: 50px;
+	}
+	.navbar{
+		padding: 15px;
+	}
+	#date{
+		text-align: center;
+		margin-top:1rem;
+	}
+}
+

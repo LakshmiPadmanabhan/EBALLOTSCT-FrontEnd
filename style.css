@@ -1,0 +1,128 @@
+body{
+    background: url("images/1.jpg") ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.logo{
+    height: 50px;
+    width: 120px;
+    margin-right: 15px;
+}
+nav a{
+    font-size: 20px;
+}
+#text{
+    animation-timing-function: linear;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    background-color: rgba(63, 61, 61, 0.801);
+    color: white;
+    padding: 30px;
+}
+#cform{
+    animation-timing-function: ease-in;
+    padding: 30px;
+}
+.heading h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #072f5f;
+}
+.heading h5{
+    color:black;
+    background-color: white;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.icons a{
+    color: white;
+    padding: 15px;
+}
+#text p{
+    font-style: italic;
+}
+.footer{
+    background-color:rgba(63, 61, 61, 0.801) ;
+    margin-top: 0px;
+}
+.details{
+    padding: 25px;
+    margin-top: 0px;
+}
+.field{
+    background-color: rgba(63, 61, 61, 0.801);
+    color:white;
+    text-align: center;
+    font-style: bold;
+}
+marquee{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 1rem;
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
+  .heading{
+    text-align: center;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .contact .row{
+    margin: 30px;
+  }
+
+ .contact{
+     background-color:rgba(190, 201, 241, 0.801);
+     padding: 10px;
+     border-radius: 50px;
+     margin-top: 50px;
+ }
+
+.submitbutton button{
+    padding:8px;
+    border-radius: 5px;
+    width: 25%;
+}
+.submitbutton button:hover{
+    background-color: green;
+}
+.details{
+    padding-top: 100px;
+    padding-bottom: 22px;
+}
+ .details h5{
+     color: white;
+     font-family: serif;
+     font-size: 30px;
+     letter-spacing: 1px;
+     font-weight: 800
+ }
+  @media screen and (max-width: 600px) {
+      body{
+          max-width: 100%;
+          overflow-x: hidden;
+      }
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0px;
+    }
+    .contact{
+        max-width: 100%;
+        margin: 10px;
+    }
+    .contact .row{
+        margin: 0px;
+    }
+    .contact .col-sm-12 {
+        margin-top: 15px;
+    }
+    .submitbutton{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	background: url("imageskac/sctce.jpeg");
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+	height:60px;
+	width:50px;
+}
+.navbar{
+	margin: 0px;
+	width: 100%;
+	padding: 5px;
+}
+.moveright{
+	font-family: Palatino Linotype;
+}
+.name{
+	display: flex;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:Palatino Linotype;
+	color: white;
+}
+.name i{
+	margin:10px;
+}
+.navbar i{
+	width: 300px;
+}
+.nav-item{
+	padding:10px;
+	font-size: 18.7px;
+}
+.nav-link:hover{
+	font-size: 19.8px;
+	color: white;
+	background-color: grey;
+}
+
+.container{ 
+	margin-top: 8rem;
+    position: relative;
+	width:380px; 
+	height:220px;
+	padding: 1rem;
+	background-color: rgba(63, 61, 61, 0.801);
+    border-radius: 30px;
+    margin-bottom: 4rem;
+}
+
+h1{
+	margin-top: 0;
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 20px;
+	color: white;
+	font-family: serif;
+	padding: 10px;
+}
+.heading{
+	
+	width: 400px;
+	margin: auto;
+	
+}
+
+.inp,form .button{
+    margin: 20px;
+	position: relative;
+	height: 40px;
+	width: 100%;
+}
+
+.inp input{
+	border: 1px solid silver;
+	width: 300px;
+	height: 100%;
+	outline: none;
+	font-size: 15px;
+	transition: .4s;
+	border-radius:8px;
+	padding: 0px;
+}
+
+
+input:focus{
+	border: 1px solid cyan;
+}
+
+.inp label,  .inp-branch label{
+	position: absolute;
+	top: 50%;
+    left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	transform: translateY(-50%);
+	pointer-events: none;
+	color: grey;
+    transition: .4s;
+    font-size: 14px;
+}
+
+input:focus ~label, input:valid ~label{
+	transform: translateY(-38px);
+	background-color: rgba(255, 255, 255, 0.1);	
+	color: black;
+	font-size: 15px;
+}
+
+
+
+.submitbutton button{
+	height: 40px;
+	width: 140px;
+	border: none;
+	border-radius: 10px;
+    cursor: pointer;
+	text-transform: uppercase;
+	background: blue;
+	margin-top:10px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.submitbutton button:hover{
+	transition: background-color 0.5s ease-out;
+	background: green;
+	color: white;
+}
+
+@media(max-width:980px){
+	html,body{
+		max-width: 100%;
+		overflow-x: hidden;
+		background-color: rgba(255, 255, 255, 0.4);
+	}
+	.navbar{
+		padding: 15px;
+	}
+	.moveright{
+		margin-left: 30px;
+	}
+	.section-1 button{
+		max-width: 100%;
+		margin-top: 10px;
+	}
+	.logo{
+		height: 50px;
+		width:40px;
+	}
+	.name{
+		font-size: 22px;
+	}
+	form{
+		display: flex;
+		flex-direction: column;
+	}
+	.container{
+		max-width: 100%;
+		margin-top: 5.5rem;
+		height: 320px;
+		margin-bottom: 90px;
+	}
+
+	h1{
+		margin:1rem;
+	}
+	.heading{
+		max-width: 100%;
+	}
+	.submitbutton button{
+        margin-top:30px;
+		margin-bottom: 0;
+		max-width: 100%;
+	}
+	.inp{
+		margin: 10px;
+		position: relative;
+		height: 40px;
+		width: 100%;
+	}
+	input{
+		max-width: 100%;
+	}
+}
+marquee{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	margin-top:10px;
+}

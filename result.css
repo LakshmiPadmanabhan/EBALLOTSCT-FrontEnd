@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	overflow-x: hidden;
+}
+.result{
+    color: white;
+    margin: 10px;
+    margin-left:100px;
+    padding: 10px;
+    font-family: Platino Linotype;
+    font-size: 25px;
+}
+.logo{
+	height:60px;
+	width:50px;
+}
+.navbar{
+	margin: 0px;
+	width: 100%;
+	padding: 5px;
+}
+.moveright{
+
+	font-family: Palatino Linotype;
+}
+.name{
+	display: flex;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:Palatino Linotype;
+	color: white;
+}
+.name i{
+	margin:10px;
+}
+.navbar i{
+	width: 300px;
+}
+.nav-item{
+	padding:10px;
+	font-size: 18.7px;
+}
+.nav-link:hover{
+	font-size: 19.8px;
+	color: white;
+	background-color: grey;
+}
+
+#myTable{
+	margin-top: 0px;
+	text-align: center;
+}
+#myResult{
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 100px;
+}
+tr:nth-child(odd){
+	background-color:#dedede;
+}
+tr:first-child{
+	background-color: #808080;
+	color: black;
+
+}
+.printbutton{
+	padding: 0px;
+	width:130px;
+	height:35px;
+	margin:15px;
+	font-size:20px;
+}
+.button button:hover{
+    background: green;
+	transition: background-color 0.5s ease-out;
+    
+    box-shadow:  0 0 5px white,
+    0 0 10px white;
+}
+#myTable th,#myTable td{
+	vertical-align: inherit;
+}
+#myResult th,#myResult td{
+	vertical-align: inherit;
+}
+#date{
+	color:black;
+	font-family: "Book Antiqua";
+	text-align: right;
+	margin-top:1rem;
+	margin-right: 30px;
+}
+marquee{
+	margin-top:0px;
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	margin-bottom:25px;
+}
+
+@media(max-width:960px){
+	.container >*{
+		padding: 0;
+		
+	}
+	html,body{
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	.section-1 button{
+		margin-top: 10px;
+	}
+	.moveright{
+		margin-left:30px;
+	}
+	.navbar{
+		padding: 15px;
+		padding-left: 0;
+	}
+	.logo{
+		height: 50px;
+		width:40px;
+	}
+	.name{
+		font-size: 22px;
+	}
+	#myTable{
+		margin:0px;
+		max-width: 100%;
+		width: 100%;
+		margin-top: 20px;		
+	}
+	.viewbutton{
+		max-width: 100%;
+	}
+	#myTable th{
+		overflow-x: hidden;
+		max-width: 100%;
+	}
+	#myResult{
+		margin:0px;
+		max-width: 100%;
+		width: 100%;
+		margin-top: 20px;		
+	}
+	#myResult th{
+		overflow-x: hidden;
+		max-width: 100%;
+	}
+}
+

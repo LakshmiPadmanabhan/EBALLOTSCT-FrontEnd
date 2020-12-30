@@ -1,0 +1,129 @@
+body{
+	background-color: #dedede;
+    overflow-x: hidden;
+}
+.submitbutton {
+	text-decoration: none;
+    color: white;
+    margin-top: 15px;
+}
+.logo{
+    height:60px;
+    width:50px;
+}
+.navbar{
+    margin: 0px;
+    width: 100%;
+    padding: 5px;
+}
+.moveright{
+
+    font-family: Palatino Linotype;
+}
+.name{
+    display: flex;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:Palatino Linotype;
+    color: white;
+}
+.name i{
+    margin:10px;
+}
+.navbar i{
+    width: 300px;
+}
+.nav-item{
+    padding:10px;
+    font-size: 18.7px;
+}
+.nav-link:hover{
+    font-size: 19.8px;
+    color: white;
+    background-color: grey;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card{
+    border-radius: 12px;
+    padding: 10px;
+    margin: 8%;
+    height: 260px;
+    /*try giving a light shade background color ..use color wheel*/
+}
+.card h2{
+    font-family: 'times new roman';
+}
+.options{
+	padding: 8px;
+	font-size: 17px;
+}
+.options h5{
+    font-family: georgia;
+    font-size: 21px;
+    margin-top:2px;
+    margin-bottom: 30px;
+}
+.options input{
+    margin:  10px;
+}
+.submitbutton {
+    font-family: georgia;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: green;
+    border-color: green;
+}
+.result{
+    color: white;
+    margin: 10px;
+    margin-left:100px;
+    padding: 10px;
+    font-family: Platino Linotype;
+    font-size: 25px;
+}
+.selectcand{
+    margin: 50px;
+}
+.votedrop{
+    display: block;
+    margin: 30px;
+}
+.votedrop select{
+    padding:12px;
+    font-size:18px;
+    width:350px;
+}
+@media(max-width:980px){
+    html,body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .moveright{
+        margin-left: 0px;
+    }
+    .section-1 button{
+        margin-top: 10px;
+    }
+    .navbar{
+		padding: 15px;
+	}
+    .logo{
+        height: 50px;
+        width:40px;
+    }
+    .name{
+        font-size: 22px;
+    }
+    .selectcand{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .selectcand select{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,120 @@
+body{
+	overflow-x: hidden;
+	background-color:#f2f2f2;
+}
+.logo{
+	height:60px;
+	width:50px;
+}
+.navbar{
+	margin: 0px;
+	width: 100%;
+	padding: 5px;
+}
+.moveright{
+
+	font-family: Palatino Linotype;
+}
+.name{
+	display: flex;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:Palatino Linotype;
+	color: white;
+}
+.name i{
+	margin:10px;
+}
+.navbar i{
+	width: 300px;
+}
+.nav-item{
+	padding:10px;
+	font-size: 18.7px;
+}
+.nav-link:hover{
+	font-size: 19.8px;
+	color: white;
+	background-color: grey;
+}
+.box{
+	width: 200px;
+	padding: 10px;
+	margin:15px;
+	border-radius: 10px;
+}
+.OptPos{
+	display:flex;
+}
+.OptPos button{
+	width:200px;
+	margin:auto;
+	margin-left: 15px;
+	border-radius: 5px;
+
+}
+.container img{
+	width:1000px;
+	height: 400px;
+	margin-top: 50px;
+}
+.carousel-caption {
+	color: white;
+	background-color: rgba(63, 61, 61, 0.7);
+	padding: 5px;
+	margin-bottom: 12px;
+	font-family: serif;
+	margin-left: 0px;
+	color:whitesmoke;
+}
+h4,p{
+	margin:2px;
+}
+@media(max-width:980px){
+	html,body{
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	.moveright{
+		margin-left: 30px;
+	}
+	.section-1 button{
+		
+		margin-top: 10px;
+	}
+	.card{
+		max-width: 100%;
+		
+	}
+	.navbar{
+		padding: 15px;
+	}
+	.logo{
+		height: 50px;
+		width:40px;
+	}
+	.name{
+		font-size: 22px;
+	}
+	.box{
+		max-width: 100%;
+		margin-top: 10px;
+	}
+	.OptPos{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top:2rem;
+	}
+	.OptPos button{
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.container img{
+		max-width: 100%;
+		height: 300px;
+		margin-top: 20px;
+	}
+}
